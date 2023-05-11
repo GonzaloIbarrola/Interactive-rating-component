@@ -1,0 +1,22 @@
+@tailwind base;
+  @layer base {
+    body {
+      @apply bg-Very-dark-blue inline-flex justify-center items-center h-screen w-screen
+    }
+    main {
+      @apply w-[327px] h-[360px] sm:w-[412px] sm:h-[416px] gradient rounded-[15px] px-6 sm:px-8 sm:py-8 pt-6 pb-8
+    }
+    h1 {
+      @apply font-bold text-Pure-white text-2xl sm:text-[28px] sm:leading-[35.45px]
+    }
+    p {
+      @apply text-Light-grey text-[14px] leading-[22px] sm:text-[15px] sm:leading-[24px]
+    }
+    
+  }
+@tailwind components;
+@tailwind utilities;
+
+.gradient {
+  background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+}
